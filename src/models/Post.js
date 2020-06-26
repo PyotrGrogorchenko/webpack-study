@@ -10,6 +10,6 @@ export default class Post {
             title: this.title,
             date: this.date.toJSON(),
             imj: this.imj
-        })
+        }, null, 2)
     }
 }
